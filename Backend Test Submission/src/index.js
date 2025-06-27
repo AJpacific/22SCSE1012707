@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const shortUrlRoutes = require('./routes/shorturls');
-const loggerMiddleware = require('../../LoggingMiddleware/logger');
+const loggerMiddleware = require('../../Logging Middleware/logger');
 const { connectDB } = require('./config/db');
 
 dotenv.config({ path: './.env' });
